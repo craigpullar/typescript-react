@@ -1,0 +1,23 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server",
+    "build": "webpack-cli"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.41",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "ts-loader": "^4.1.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
